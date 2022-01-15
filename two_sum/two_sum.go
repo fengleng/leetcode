@@ -7,7 +7,7 @@ func TwoSum(arr []int, target int) []int {
 		if ai, ok := m[another]; ok {
 			return []int{ai, i}
 		}
-		m[v] = v
+		m[v] = i
 	}
 	return nil
 }
